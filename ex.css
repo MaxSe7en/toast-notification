@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+button {
+    padding: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 15px;
+    border-radius: 10%;
+    box-shadow: 20px, 3px, greenyellow;
+    background-color: greenyellow;
+}
+
+.toast {
+    background-color: hotpink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10%;
+    margin: 2px;
+    border-radius: 80%;
+    transition: ease-in 3000ms;
+}
+
+
+.container {
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    
+}
